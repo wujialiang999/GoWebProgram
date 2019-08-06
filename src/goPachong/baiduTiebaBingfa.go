@@ -1,8 +1,8 @@
 /**
  *
- * 功能：百度贴吧爬虫
+ * 功能：百度贴吧并发爬虫
  * 作者: 
- * 创建时间:2019年8月5日20:36:35
+ * 创建时间:2019年8月6日18:39:58
 */
 
 package main
@@ -14,6 +14,24 @@ import(
   "io"
   "os"
 )
+
+func SpiderPage(i int,page chan int){
+    url:="http://tieba.baidu.com/f?kw=gis&ie=utf-8&pn="+strconv.Itoa((i-1)*50)
+    result,err:=httpGet(url)
+    if err != nil{
+        fmt.Printf("HttpGet err ",err)
+        return 
+    }
+    //fmt.Println("result=",result)
+    f,err := os.Create("第"+strconv.Itoa(i)+"页.html")
+    if err!= nil {
+        fmt.Println("os err ",err)
+        return
+    }
+    f.WriteString(result)
+    f.Close()
+    page <- i//与主go程协调工作
+}
 
 func httpGet(url string) (result string,err error){
     resp,err1 := http.Get(url)
@@ -41,21 +59,13 @@ func httpGet(url string) (result string,err error){
 
 func working(start,end int){
     fmt.Printf("正在爬取第%d页到%d页...\n",start,end)
+    page := make(chan int)
     for i:=start;i<=end;i++{
-        url:="http://tieba.baidu.com/f?kw=gis&ie=utf-8&pn="+strconv.Itoa((i-1)*50)
-        result,err:=httpGet(url)
-        if err != nil{
-            fmt.Printf("HttpGet err ",err)
-            continue
-        }
-        //fmt.Println("result=",result)
-        f,err := os.Create("第"+strconv.Itoa(i)+"页.html")
-        if err!= nil {
-            fmt.Println("os err ",err)
-            continue
-        }
-        f.WriteString(result)
-        f.Close()
+       go SpiderPage(i,page)
+
+    }
+    for i := start; i<=end; i++{
+        fmt.Printf("第%d个网页爬去完成\n",<-page)
     }
 }
 
