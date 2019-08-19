@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1469e21e-b000-4049-9c62-17c7ec385238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch03/first.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/goStudy/ch03/second.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -12,6 +11,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="goProject" />
   </component>
@@ -20,11 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/goStudy/ch03/second.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#14#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="279">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="486" />
-    <option name="y" value="223" />
+    <option name="x" value="275" />
+    <option name="y" value="208" />
     <option name="width" value="1587" />
     <option name="height" value="1014" />
   </component>
@@ -138,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build first.go">
+  <component name="RunManager" selected="Go Build.go build second.go">
     <configuration name="go build eleventh.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -154,11 +164,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ninth.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build second.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/goStudy/ch02/ninth.go" />
+      <filePath value="$PROJECT_DIR$/src/goStudy/ch03/second.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build tenth.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -178,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build second.go" />
         <item itemvalue="Go Build.go build first.go" />
         <item itemvalue="Go Build.go build twelfth.go" />
         <item itemvalue="Go Build.go build eleventh.go" />
         <item itemvalue="Go Build.go build tenth.go" />
-        <item itemvalue="Go Build.go build ninth.go" />
       </list>
     </recent_temporary>
   </component>
@@ -196,16 +207,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="486" y="223" width="1587" height="1014" extended-state="0" />
+    <frame x="275" y="208" width="1587" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.16044532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.16044532" />
       <window_info id="Structure" order="1" sideWeight="0.50056756" side_tool="true" weight="0.1611002" />
       <window_info id="Favorites" order="2" sideWeight="0.50056756" side_tool="true" weight="0.1611002" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967256" weight="0.3280363" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967256" visible="true" weight="0.3507378" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287841" />
@@ -217,7 +228,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32940406" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="go语言从入门到进阶实战第一章" />
     <MESSAGE value="go语言从入门到进阶实战第二章" />
-    <option name="LAST_COMMIT_MESSAGE" value="go语言从入门到进阶实战第二章" />
+    <MESSAGE value="go语言从入门到进阶实战第三章-数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="go语言从入门到进阶实战第三章-数组" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -431,13 +443,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/goStudy/ch03/second.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
