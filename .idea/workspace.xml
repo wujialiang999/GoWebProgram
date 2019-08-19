@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1469e21e-b000-4049-9c62-17c7ec385238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/eighth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/eleventh.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/fifth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/first.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/fourth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/ninth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/second.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/setting.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/seventh.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/sin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/sixth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/tenth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/thrid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goStudy/ch02/twelfth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/goStudy/ch03/first.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/goStudy/ch03/second.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +16,14 @@
     <favorites_list name="goProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/goStudy/ch02/twelfth.go">
+        <entry file="file://$PROJECT_DIR$/src/goStudy/ch03/second.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
-                <element signature="e#14#31#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,12 +61,14 @@
         <option value="$PROJECT_DIR$/src/goStudy/ch02/tenth.go" />
         <option value="$PROJECT_DIR$/src/goStudy/ch02/eleventh.go" />
         <option value="$PROJECT_DIR$/src/goStudy/ch02/twelfth.go" />
+        <option value="$PROJECT_DIR$/src/goStudy/ch03/first.go" />
+        <option value="$PROJECT_DIR$/src/goStudy/ch03/second.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="530" />
-    <option name="y" value="392" />
+    <option name="x" value="486" />
+    <option name="y" value="223" />
     <option name="width" value="1587" />
     <option name="height" value="1014" />
   </component>
@@ -90,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +103,13 @@
               <item name="goProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="goStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="ch03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,19 +138,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build twelfth.go">
-    <configuration name="go build eighth.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/goStudy/ch02/eighth.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build first.go">
     <configuration name="go build eleventh.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/goStudy/ch02/eleventh.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build first.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/goStudy/ch03/first.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build ninth.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -187,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build first.go" />
         <item itemvalue="Go Build.go build twelfth.go" />
         <item itemvalue="Go Build.go build eleventh.go" />
         <item itemvalue="Go Build.go build tenth.go" />
         <item itemvalue="Go Build.go build ninth.go" />
-        <item itemvalue="Go Build.go build eighth.go" />
       </list>
     </recent_temporary>
   </component>
@@ -205,24 +196,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="259" width="1587" height="1014" extended-state="0" />
+    <frame x="486" y="223" width="1587" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.16306484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.16044532" />
       <window_info id="Structure" order="1" sideWeight="0.50056756" side_tool="true" weight="0.1611002" />
       <window_info id="Favorites" order="2" sideWeight="0.50056756" side_tool="true" weight="0.1611002" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967256" weight="0.3280363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287841" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3280363" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287841" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3280363" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50032747" side_tool="true" weight="0.3280363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -232,9 +223,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="go语言从入门到进阶实战第一章" />
-    <option name="LAST_COMMIT_MESSAGE" value="go语言从入门到进阶实战第一章" />
+    <MESSAGE value="go语言从入门到进阶实战第二章" />
+    <option name="LAST_COMMIT_MESSAGE" value="go语言从入门到进阶实战第二章" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -381,10 +413,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/goStudy/ch02/twelfth.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="310">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goStudy/ch03/first.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goStudy/ch03/second.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
