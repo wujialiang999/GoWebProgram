@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func fire(){
-    fmt.println("fire");
+    fmt.Println("fire");
 }
 
 func main() {
