@@ -6,9 +6,9 @@ func main() {
     in:=Data{
         complax:[]int{1,2,3},
         instance:InnerData{
-            5
+            5,
         },
-        ptr:&InnerData
+        ptr:&InnerData{1},
     }
     fmt.Printf("in value:%+v\n",in)
     fmt.Printf("in value:%p\n",&in)
@@ -16,12 +16,12 @@ func main() {
     fmt.Printf("out value:%+v\n",out)
     fmt.Printf("out value:%p\n",&out)
 }
-type InnerData{
+type InnerData struct{
     a int
 }
 type Data struct{
-    complax []int,
-    instance InnerData,
+    complax []int
+    instance InnerData
     ptr *InnerData
 }
 func passByValue(inFunc Data) Data{
