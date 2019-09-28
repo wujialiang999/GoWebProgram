@@ -14,11 +14,11 @@ import (
 	"strconv"
 )
 
-func SpiderPage(i int, page chan int) {
+func spiderPage(i int, page chan int) {
 	url := "http://tieba.baidu.com/f?kw=gis&ie=utf-8&pn=" + strconv.Itoa((i-1)*50)
 	result, err := httpGet(url)
 	if err != nil {
-		fmt.Printf("HttpGet err ", err)
+		fmt.Println("HttpGet err ", err)
 		return
 	}
 	//fmt.Println("result=",result)
@@ -60,7 +60,7 @@ func working(start, end int) {
 	fmt.Printf("正在爬取第%d页到%d页...\n", start, end)
 	page := make(chan int)
 	for i := start; i <= end; i++ {
-		go SpiderPage(i, page)
+		go spiderPage(i, page)
 
 	}
 	for i := start; i <= end; i++ {
