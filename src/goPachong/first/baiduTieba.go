@@ -1,4 +1,4 @@
-package first
+package main
 
 /**
  *
@@ -44,7 +44,7 @@ func working(start, end int) {
 		url := "http://tieba.baidu.com/f?kw=gis&ie=utf-8&pn=" + strconv.Itoa((i-1)*50)
 		result, err := httpGet(url)
 		if err != nil {
-			fmt.Printf("HttpGet err ", err)
+			fmt.Println("HttpGet err ", err)
 			continue
 		}
 		//fmt.Println("result=",result)
