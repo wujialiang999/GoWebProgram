@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goPachong\zzx\httputils"
+	"goPachong/zzx/httputils"
 )
 
 func main() {
