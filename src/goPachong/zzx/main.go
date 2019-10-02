@@ -2,11 +2,17 @@ package main
 
 import (
 	"fmt"
-	"goPachong/zzx/httputils"
+	"httputils"
 )
 
 func main() {
-	fmt.Println("开始工作")
-	url := "https://jiaotong.baidu.com/trafficindex/city/list"
-	httputils.HTTPGet(url)
+	//url := "https://jiaotong.baidu.com/trafficindex/city/list"
+	//zzx.HTTPGet(url)
+	//zzx.CreateCSV()
+	resultCode := zzx.GetCSV()
+	for i := 0; i < len(resultCode); i++ {
+		fmt.Println("http://jiaotong.baidu.com/top/report/?citycode=" + resultCode[i])
+	}
+
 }
+
